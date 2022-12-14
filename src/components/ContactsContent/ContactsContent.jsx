@@ -15,7 +15,7 @@ const ContactsContent = (props) => {
       <div className={style.content}>
         <ContactsBlockInfo contacts={props.contacts} />
         <ContactsBlockForm PostFeedbackFunc={props.PostFeedbackFunc} />
-        <ContactsBlockAbout />
+        <ContactsBlockAbout text={props.text}/>
       </div>
     </div>
   );

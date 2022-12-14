@@ -8,6 +8,7 @@ import {GetSearch} from "../store/slice/searcSlice.js";
 const Contact = (props) => {
   useEffect(() => {
     props.GetNewsAll(1, 5, 2022);
+    props.GetContact();
   }, []);
   return (
     <div className="content">
@@ -17,7 +18,8 @@ const Contact = (props) => {
       <ContactsContent
         PostFeedbackFunc={props.PostFeedbackFunc}
         news={props.news}
-        contacts={props.contacts}
+        contacts={props.contacts.contacts}
+        text={props.contacts.text}
       />
     </div>
   );
