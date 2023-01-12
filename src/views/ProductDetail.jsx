@@ -1,13 +1,12 @@
 import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import BreadcrumbDetailProduct from "../components/Breadcrumb/BreadcrumbDetailProduct";
 import DetailProduct from "../components/Detail/DetailProduct";
-import Search from "../components/Search/Search";
-import { useParams } from "react-router-dom";
-import Title from "../components/Title/Title";
-import Product from "../components/Product/Product";
 import Preloader from "../components/Preloader/Preloader";
+import Product from "../components/Product/Product";
+import Search from "../components/Search/Search";
+import Title from "../components/Title/Title";
 import { useDisableScroll } from "../hooks/useDisableScroll.js";
-import {GetSearch} from "../store/slice/searcSlice.js";
 
 export default function ProductDetail(props) {
   const id = useParams();
