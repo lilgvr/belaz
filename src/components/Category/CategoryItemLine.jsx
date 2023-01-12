@@ -7,7 +7,7 @@ const CategoryItemLine = (props) => {
   return (
     <div className={style.cardLine}>
       <img
-        src={props.img === null ? picture : "https://s.stats.cfd/" + props.img}
+        src={props.img === null ? picture : "https://a.mpstats.store/" + props.img}
         className={style.imgLong}
         alt="img"
       />

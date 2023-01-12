@@ -14,7 +14,7 @@ const NewsDetailItem = (props) => {
     return (
         <div className={style.container}>
             <div className={style.bunner}>
-                <img src={"https://s.stats.cfd/" +props.detail?.img}  className={style.bannerImg}/>
+                <img src={"https://a.mpstats.store/" +props.detail?.img}  className={style.bannerImg}/>
                     <div className={style.bannerTitle}>{props.detail?.name}</div>
                     <div className={style.bannerdate}>{day}-{mounth}-{year}</div>
             </div>

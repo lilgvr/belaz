@@ -10,7 +10,7 @@ const NewsContentItem = (props) => {
 
     return (
         <div className={style.card}>
-            <img className={style.img} alt="newsPhoto" src={"https://s.stats.cfd/"+props.img}/>
+            <img className={style.img} alt="newsPhoto" src={"https://a.mpstats.store/"+props.img}/>
             <div className={style.info}>
                 <div className={style.titleNews}>{props.name}</div>
                 <div className={style.date}>{day}-{mounth}-{year}</div>

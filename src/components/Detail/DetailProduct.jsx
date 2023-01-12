@@ -11,7 +11,7 @@ export default function DetailProduct(props) {
       <div className={style.flex}>
         <img
           className={style.img}
-          src={"https://s.stats.cfd/" + props.detail?.img}
+          src={"https://a.mpstats.store/" + props.detail?.img}
         />
         <div className={style.item}>
           <div className={style.grabe}>

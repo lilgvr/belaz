@@ -12,7 +12,7 @@ const ProductItemLine = (props) => {
         <img
           alt="product"
           src={
-            props.img === null ? picture : "https://s.stats.cfd/" + props.img
+            props.img === null ? picture : "https://a.mpstats.store/" + props.img
           }
           className={style.lineImg}
         />
