@@ -5,11 +5,11 @@
   position: relative;
 }
 .img {
+  @include fluid(height, 350px, 420px);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  @include fluid(height, 350px, 420px);
   background-size: cover;
   background-image: url("../../assets/behefits/banner.png");
   background-repeat: no-repeat;

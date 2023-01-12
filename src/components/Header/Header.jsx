@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import style from "./Header.module.scss";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/svg/logo.svg";
 import Nav from "../Nav/Nav.jsx";
 import NavUnder from "../Nav/NavUnder.jsx";
 

@@ -19,6 +19,7 @@ export default function ProductDetail(props) {
   console.log(props.detail);
 
   useDisableScroll(props.detailLoading)
+
   return (
     <div className="content">
       {props.detailLoading ? <Preloader /> : ""}

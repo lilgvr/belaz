@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import style from "./Search.module.scss"
-import search from "../../assets/search.svg"
+import search from "../../assets/svg/search.svg"
 import { NavLink } from "react-router-dom";
 
 const Search = (props) => {
