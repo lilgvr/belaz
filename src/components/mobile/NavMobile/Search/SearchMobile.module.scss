@@ -1,0 +1,16 @@
+.searchMobile {
+    width: 80%;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 3vw;
+    border-radius: 3px;
+    padding: 1vw 0 1vw 3vw;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: #CCCCCC;
+    }
+}
