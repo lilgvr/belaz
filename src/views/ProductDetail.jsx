@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 import Title from "../components/Title/Title";
 import Product from "../components/Product/Product";
 import Preloader from "../components/Preloader/Preloader";
+import { useDisableScroll } from "../hooks/useDisableScroll.js";
 import {GetSearch} from "../store/slice/searcSlice.js";
 
 export default function ProductDetail(props) {
@@ -16,6 +17,8 @@ export default function ProductDetail(props) {
     props.GetRecommends(1, 5);
   }, []);
   console.log(props.detail);
+
+  useDisableScroll(props.detailLoading)
   return (
     <div className="content">
       {props.detailLoading ? <Preloader /> : ""}
